@@ -1,0 +1,107 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
+:root {
+    --VeryDarkBlue: hsl(243, 87%, 12%);
+    --DesaturatedBlue: hsl(238, 22%, 44%);
+    --BrightBlue: hsl(224, 93%, 58%);
+    --ModerateCyan: hsl(170, 45%, 43%);
+    --LightGrayishBlue: hsl(240, 75%, 98%);
+    --LightGray: hsl(0, 0%, 75%);
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7% 3% 20%;
+}
+
+.logoHeader {
+    width: 30%;
+}
+
+.ListNav {
+    display: flex;
+}
+
+.ListNav>li {
+    padding-right: 15px;
+}
+
+.illustration-1, .illustration-2, .mobile {
+    width: 100%;
+}
+
+.containSecGeneral{
+    padding: 5%;
+}
+
+h1{
+    color: var(--VeryDarkBlue);
+    text-align: center;
+    font-size: 26px;
+    line-height: 45px;
+    padding: 10% 1%;
+    font-weight: bold;
+}
+
+.textH1{
+    font-size: 17px;
+    color: var(--VeryDarkBlue);
+    text-align: center;
+    line-height: 1.4;
+
+}
+.containInputButt{
+    display: flex;
+    flex-direction: column;
+}
+
+.inputOne{
+    border: 1px solid var(--DesaturatedBlue);
+    margin: 30px 0 20px;
+    height: 2.7rem;
+    border-radius: 0.3rem;
+}
+::placeholder{
+    padding-left: 25px;
+    color: var(--LightGray);
+}
+
+.buttonOne{
+    height: 2.7rem;
+    color: var(--LightGrayishBlue);
+    border-style: none;
+    background-color: var(--BrightBlue);
+    font-weight: 700;
+    border-radius: 0.3rem;
+    box-shadow: 3px 4px 14px -9px rgb(54, 53, 53);
+}
+
+.illustration-2{
+    background-color: var(--LightGrayishBlue);
+}
+
+.imgCurveMobile{
+    background-image: url(/img/bg-curve-mobile.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 150px;
+}
+
+.text2{
+    color: var(--VeryDarkBlue);
+    text-align: center;
+    font-size: 26px;
+    line-height: 45px;
+    padding: 10% 1%;
+    font-weight: bold;
+}
+
+
