@@ -39,6 +39,7 @@ header {
 
 .containSecGeneral{
     padding: 5%;
+    margin-bottom: 80px;
 }
 
 h1{
@@ -83,6 +84,11 @@ h1{
     box-shadow: 3px 4px 14px -9px rgb(54, 53, 53);
 }
 
+.containSecGenera2{
+    background-color: var(--LightGrayishBlue);
+    padding-bottom: 50px;
+}
+
 .illustration-2{
     background-color: var(--LightGrayishBlue);
 }
@@ -98,10 +104,82 @@ h1{
 .text2{
     color: var(--VeryDarkBlue);
     text-align: center;
-    font-size: 26px;
+    font-size: 20px;
     line-height: 45px;
-    padding: 10% 1%;
+    padding: 20% 0 5%;
+    font-weight: bold;  
+}
+
+.text3{
+    font-size: 16px;
+    color: var(--VeryDarkBlue);
+    text-align: left;
+    line-height: 1.4;
+    padding: 0 5%;
+    margin-bottom: 15px;
+}
+
+.containSeeHow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.text4{
+    color: var(--ModerateCyan);
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.icon-arrow{
+    height: 20px;
+}
+
+.containQuotes{
+    margin: 10% 6%;
+    padding: 5%;
+    background-color: white;
+    box-shadow: 3px 4px 14px -9px rgb(54, 53, 53);
+    border-radius: 0.6rem;
+}
+
+.text5{
+    font-size: 14px;
+    line-height: 25px;
+    margin-top: 10px;
+}
+.containAvatar{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+.avatar{
+    height: 50px;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+.nameAvatar{
+    color: var(--VeryDarkBlue);
     font-weight: bold;
 }
+
+.position{
+    font-size: 12px;
+    padding-top: 8px;
+}
+
+.containSecGenera3{
+    background-color: var(--DesaturatedBlue);
+}
+
+
+
+
+
 
 
