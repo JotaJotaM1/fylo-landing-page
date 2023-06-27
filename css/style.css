@@ -33,16 +33,18 @@ header {
     padding-right: 15px;
 }
 
-.illustration-1, .illustration-2, .mobile {
+.illustration-1,
+.illustration-2,
+.mobile {
     width: 100%;
 }
 
-.containSecGeneral{
+.containSecGeneral {
     padding: 5%;
     margin-bottom: 80px;
 }
 
-h1{
+h1 {
     color: var(--VeryDarkBlue);
     text-align: center;
     font-size: 26px;
@@ -51,30 +53,32 @@ h1{
     font-weight: bold;
 }
 
-.textH1{
+.textH1 {
     font-size: 17px;
     color: var(--VeryDarkBlue);
     text-align: center;
     line-height: 1.4;
 
 }
-.containInputButt{
+
+.containInputButt {
     display: flex;
     flex-direction: column;
 }
 
-.inputOne{
+.inputOne {
     border: 1px solid var(--DesaturatedBlue);
     margin: 30px 0 20px;
     height: 2.7rem;
     border-radius: 0.3rem;
 }
-::placeholder{
+
+::placeholder {
     padding-left: 25px;
     color: var(--LightGray);
 }
 
-.buttonOne{
+.buttonOne {
     height: 2.7rem;
     color: var(--LightGrayishBlue);
     border-style: none;
@@ -84,16 +88,17 @@ h1{
     box-shadow: 3px 4px 14px -9px rgb(54, 53, 53);
 }
 
-.containSecGenera2{
+
+.containSecGenera2 {
     background-color: var(--LightGrayishBlue);
     padding-bottom: 50px;
 }
 
-.illustration-2{
+.illustration-2 {
     background-color: var(--LightGrayishBlue);
 }
 
-.imgCurveMobile{
+.imgCurveMobile {
     background-image: url(/img/bg-curve-mobile.svg);
     background-size: cover;
     background-position: center;
@@ -101,16 +106,16 @@ h1{
     height: 150px;
 }
 
-.text2{
+.text2 {
     color: var(--VeryDarkBlue);
     text-align: center;
     font-size: 20px;
     line-height: 45px;
     padding: 20% 0 5%;
-    font-weight: bold;  
+    font-weight: bold;
 }
 
-.text3{
+.text3 {
     font-size: 16px;
     color: var(--VeryDarkBlue);
     text-align: left;
@@ -119,24 +124,24 @@ h1{
     margin-bottom: 15px;
 }
 
-.containSeeHow{
+.containSeeHow {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 10px;
 }
 
-.text4{
+.text4 {
     color: var(--ModerateCyan);
     text-decoration: underline;
     font-size: 20px;
 }
 
-.icon-arrow{
+.icon-arrow {
     height: 20px;
 }
 
-.containQuotes{
+.containQuotes {
     margin: 10% 6%;
     padding: 5%;
     background-color: white;
@@ -144,12 +149,13 @@ h1{
     border-radius: 0.6rem;
 }
 
-.text5{
+.text5 {
     font-size: 14px;
     line-height: 25px;
     margin-top: 10px;
 }
-.containAvatar{
+
+.containAvatar {
     display: flex;
     justify-content: start;
     align-items: center;
@@ -157,29 +163,87 @@ h1{
 
 }
 
-.avatar{
+.avatar {
     height: 50px;
     border-radius: 100%;
     margin-right: 10px;
 }
 
-.nameAvatar{
+.nameAvatar {
     color: var(--VeryDarkBlue);
     font-weight: bold;
 }
 
-.position{
+.position {
     font-size: 12px;
     padding-top: 8px;
 }
 
-.containSecGenera3{
+.containSecGenera3 {
     background-color: var(--DesaturatedBlue);
+    padding: 5%;
+    text-align: center;
+    color: white;
 }
 
+.titleH2 {
+    padding: 45px 0 30px;
+}
 
+.text6 {
+    font-size: 18px;
+    line-height: 1.5;
+}
 
+.buttonOneMar {
+    margin-bottom: 50px;
+}
 
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 15% 10%;
+    background-color: var(--VeryDarkBlue);
+    color: white;
+}
 
+.imgLogoFooter{
+    margin: 30px 0 30px;
+}    
 
+.containerPhone,
+.containerEmail {
+    display: flex;
+}
 
+.containerEmail{
+    margin-bottom: 40px;
+}
+
+.containListFooter>li {
+
+    line-height: 40px;
+
+}
+
+.listMargin {
+    margin-bottom: 30px;
+}
+
+.containSocial>ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+
+.listSocial>li {
+    padding: 0 15px;
+}
+
+.imgPhone,
+.imgEmail {
+    padding: 0 20px 20px 0;
+}
